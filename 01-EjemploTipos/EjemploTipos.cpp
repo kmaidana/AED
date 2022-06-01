@@ -1,4 +1,4 @@
-/* EjemploTpos.cpp
+/* EjemploTipos.cpp
  * Probar aplicaciones de tipos de datos
  * Kevin Maidana
  * 20220512
@@ -31,9 +31,9 @@ int main (){
     Siempre representan su valor numérico
     */
 
-    assert('A'!='B'):
-    assert('A' < 'B'):
-    assert('A'== 65):
+    assert('A'!='B');
+    assert('A' < 'B');
+    assert('A'== 65);
     assert('B' + 'A' != 'b' + 'a');
     assert('B' - 'A' == 'b' - 'a');
     assert('a' > 'A');
@@ -69,7 +69,7 @@ int main (){
     Conjunto de valores: representado matematicamente por los reales. (R
     */
     assert(10.2 + -9.5 >= 0.0);
-    assert(0.1 + 0.1 != 0.2);
+    assert(0.1 + 0.1 == 0.2);
     assert(1.0 / 10.0 == 0.1);
     assert(0.0 == 0. and .0 == 0.0 and 0.0 == 0.0f and 0.0 == 0e1);  //f = float 
     assert(2.0 * 3.0 <= 7.0);
@@ -80,11 +80,11 @@ int main (){
     Tipo de dato compuesto, formado por caracteres. 
     A diferencia de el tipo CHAR, se expresa entre comillas.
     */
-    assert('A's == 'A's);
-    assert('A's != 'a's);
-    assert('B's > 'A's);
-    assert('AA's < 'aa's);
-    assert('A's + 'L's + 'E's = 'ALE's);
-    assert('Mai's + 'dana' == 'Maidana');
-    assert('Mai's + 'dana' != 'andaiaM');
+    assert("A"s == "A"s);
+    assert("A"s != "a"s);
+    assert("B"s > "A"s);
+    assert("AA"s < "aa"s);
+    assert("A"s + "L"s + "E"s == "ALE"s);
+    assert("Mai"s + "dana" == "Maidana"s);
+    assert("Mai"s + "dana" != "andaiaM");
 }
