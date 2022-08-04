@@ -1,1 +1,6 @@
-
+Microsoft
+*.exe
+Unix
+*
+!/**/
+!*.*
